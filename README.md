@@ -19,7 +19,7 @@ If a SKU from the main file does not exist in the reference file, its price will
 ## Example
 
 **file1.csv**
-
+```
 SKU,Description,price
 0,aaaa,
 1,sss,
@@ -27,8 +27,9 @@ SKU,Description,price
 3,ggg,
 4,fff,
 5,hhhh,
-
+```
 **file2.csv**
+```
 SKU,price
 0,12
 1,13
@@ -36,7 +37,9 @@ SKU,price
 3,76
 4,87
 5,59
+```
 **output.csv**
+```
 SKU,Description,price
 0,aaaa,12.00
 1,sss,13.00
@@ -45,7 +48,7 @@ SKU,Description,price
 4,fff,87.00
 5,hhhh,59.00
 
-
+```
 ## Installation
 
 Clone this repo and install dependencies:
