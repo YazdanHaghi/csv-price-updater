@@ -46,7 +46,7 @@ SKU,Description,price
 5,hhhh,59.00
 
 
-Installation
+## Installation
 
 Clone this repo and install dependencies:
 
@@ -54,7 +54,7 @@ git clone https://github.com/your-username/csv-price-updater.git
 cd csv-price-updater
 pip install pandas
 
-Usage
+## Usage
 
 Run the script from the command line:
 
